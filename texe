@@ -1,0 +1,24 @@
+<div class="sandw-round">
+        <div class="sandw">
+          <div class="sandw-img" id="America-sandw">
+            <h3><i class="fa-solid fa-indian-rupee-sign"></i><b>280</b></h3>
+            <button><i class="fa-solid fa-cart-shopping sandw-icon"></i></button>
+          </div>
+          <h2 style="text-align: center; margin-top: 30px;"class="head-style">American Sandwitch</h2>
+        </div>
+      </div>
+
+      <div class="sandw-round">
+        <div class="sandw">
+          <div class="sandw-img" id="BLT-sandw">
+            <h3><i class="fa-solid fa-indian-rupee-sign"></i><b>350</b></h3>
+            <button><i class="fa-solid fa-cart-shopping sandw-icon"></i></button>
+          </div>
+          <h2 style="text-align: center;margin-top: 30px;"class="head-style">BLT Sandwitch</h2>
+        </div>
+      </div>
+       
+      <div class="you-can">
+        <h1 class="head-style">Now You Can Order On <br>Mobile Phone For Free</h1>
+        <button class="dwld" style="font-family: 'Concert One', cursive;">DOWNLOAD</button>
+      </div>

@@ -1,0 +1,625 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 50px;
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+    z-index:100;
+}
+.nav-head{
+    font-family: 'Pacifico', cursive;
+    color: red;
+}
+#check{
+    display: none;
+}
+.ul{
+    display: flex;
+    margin-top: 10px;
+}
+.nav-list{
+    margin-left: 30px;
+    list-style: none;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    font-family: 'Concert One', cursive;
+}
+.nav-link:hover{
+    color: red;
+}
+.home-main{
+    margin-top:-180px;
+    background-size: cover;
+    height: 700px;
+    background:linear-gradient(rgba(51, 51, 51, 0.7),rgba(41, 40, 40, 0.9)),url('https://decor10blog.com/wp-content/uploads/2017/04/stunning-restaurant-interior-design-View03.jpg');
+}
+.flex-div{
+    display: flex;
+    margin-top: 150px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 170px;
+    color: white;
+}
+.home-div h1{
+    font-size: 60px;
+    margin-top: 30px;
+    font-family: 'Autour One', cursive;
+}
+.home-div{
+    width: 100%;
+    margin-top: 260px;
+}
+.icon-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 800px;
+    justify-content: space-evenly;
+}
+.first-icon{
+    border: 2px solid;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    color: white;
+}
+.first-icon:hover{
+    color: violet;
+}
+.pizza-div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.about-div{
+    margin-top: 130px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.pizza{
+    background-color:lightcyan;
+    width: 400px;
+    height: 380px;
+    border-radius: 60px 60px 0px 0px ;
+    box-shadow: 5px 5px 6px 3px;
+    margin-top: 30px;
+    transition: 1s ease-in-out;
+}
+.pizza:hover{
+    transform: scale(1.1);
+}
+.pizza-img{
+    margin-left: 20px;
+    margin-top: -120px;
+    width: 350px;
+}
+.food-head{
+       display: flex;
+       justify-content: space-between;
+       font-family: 'Autour One', cursive;
+}
+.head-style{
+    font-family: 'Autour One', cursive;
+    font-size:30px;
+}
+.order-name{
+    font-family: 'Autour One', cursive;
+    font-size: 30px;
+}
+.like-icon{
+    border: 1px solid;
+    border-radius: 100%;
+    padding: 3px;
+    background-color: white;
+    font-size: 18px;
+}
+.para{
+    font-size: 13px;
+}
+.food-discr{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pur-icon{
+    font-size: 20px;
+    border: 3px solid;
+    padding: 10px;
+    margin-bottom: -5px;
+    margin-right: -5px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    
+}
+#burger-main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.burger{
+    width: 400px;
+    transition: 1s ease-in-out;
+}
+.burger:hover{
+    transform: scale(1.1);
+}
+#olive-img{
+    background-image: url(./olive-burger.jpg);
+}
+#gcc-img{
+    background-image: url('https://www.tasteatlas.com/images/dishes/93b085a03ca64ca1b2f5a72f2682273a.jpg?mw=1300');
+}
+#ucc-img{
+    background-image: url('https://www.tasteatlas.com/images/dishes/df459d9fe5ad400e8bf69e4f25d9cf12.jpg?mw=1300');
+}
+#potch-img{
+    background-image: url('https://cdn.tasteatlas.com//images/dishes/1707a37a9765488ca4e4a7b83092cb33.jpg?w=905&h=510');
+}
+#Theta-img{
+    background-image: url('https://cdn.tasteatlas.com//images/dishes/1f36e3d6d25748359c10754765f0591d.jpg?w=905&h=510');
+}
+#Luther-img{
+    background-image: url('https://cdn.tasteatlas.com//images/dishes/b93eb7fc038e47dfbc0c5d42a9c41da9.jpg?w=905&h=510');
+}
+.img-bur{
+    background-size: cover;
+    border-radius: 0% 10% 0% 10%;
+    box-shadow: 5px 5px 10px;
+    height: 400px;
+}
+.bur-layer{
+    width: 150px;
+    border-radius: 0px 60px 60px 60px;
+    border: 2px solid;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.order-btn{
+     padding: 5px 20px 5px 20px;
+     border-radius: 10px;
+     background-color: white;
+     font-weight: bold;
+     border: 2px solid;
+}
+#sandw-main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.sandw-round{
+    width: 500px;
+    transition: 1s ease-in-out;
+}
+.sandw{
+    height: 400px;
+}
+.sandw-round:hover{
+    transform: scale(1.1);
+}
+.sandw-img{
+    width: 100%;
+    height: 100%;  
+    background-size: cover;
+    border-radius:50% 50% 50% 0%;
+    position: relative;
+    box-shadow: 10px 10px 20px;
+}
+.sandw h1{
+    text-align: center;
+}
+.you-can{
+    margin-top: 150px;
+}
+.dwld{
+    font-size: 20px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 50px;
+    background-color: lightgreen;
+    margin-top: 20px;
+}
+#America-sandw{
+    background-image: url('https://preparedcooks.com/wp-content/uploads/2022/04/American-Sandwich-768x512.jpg');
+    
+}
+#BLT-sandw{
+    background-image: url('https://preparedcooks.com/wp-content/uploads/2022/04/BLT-Sandwich-768x512.jpg');
+}
+#thurky-sandw{
+    background-image: url('https://media.istockphoto.com/id/1332340518/photo/sandwich-with-smoked-ham-and-fresh-lettuce.jpg?s=612x612&w=0&k=20&c=IQeyXjYs6Z1zbk3GadcTWq1CoTrQXVv0jHet5r76rKA=');
+}
+#cuben-sandw{
+    background-image: url('https://media.istockphoto.com/id/1305692648/photo/classic-grilled-cuban-sandwich.jpg?s=612x612&w=0&k=20&c=gxlI4n5L3-JZL4MpUeObIwo5yZalksLkpUTh9axXQ1E=');
+}
+#arugula-sandw{
+    background-image: url('https://media.istockphoto.com/id/846067582/photo/ham-swiss-and-arugula-sandwich.jpg?s=612x612&w=0&k=20&c=woDPoCW2HpCRfssT7te04_0mzlaRbZe_gRJBwAJJ0sw=');
+}
+.sandw-img h3{
+    border: 2px solid;
+    width: 25%;
+    height: 16%;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 50%;
+    float:right;
+    background-color: rgb(145, 49, 94);
+    border:rgb(145, 49, 94);
+    color: white;
+    font-size: 20px;
+}
+.sandw-icon{
+    position: absolute;
+    bottom: 0;
+    border: 3px solid;
+    padding: 20px 30px 15px 16px;
+    background-color: white;
+    border-radius: 0px 60px 0px 0px;
+    font-size:20px;
+}
+.view-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+.view-more button{
+    font-size: 25px;
+    padding: 10px 30px 10px 30px ;
+    border-radius: 70px ;
+    border: 2px solid;
+    background-color: white;
+}
+.rev-h1{
+    margin-top: 130px;
+}
+.review{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+}
+.img-txt{
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+}
+.review-1 img{
+    width: 80px;
+    border-radius: 50px;
+}
+.review-1 h3{
+    margin-top: 20px;
+}
+.review-1 span{
+    color:rgb(120, 117, 117) ;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    color: black;
+    background-color: skyblue;
+    padding-top: 20px;
+}
+.icon-logo{
+    width:250px;
+}
+.points{
+    width:150px;
+}
+
+#li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+#footer-ul{
+    margin-top: 25px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.icon-collection{
+    display: flex;
+    justify-content: center;
+}
+.brand{
+    font-size: 30px;
+    color: black;
+}
+.brand:hover{
+    color: rgb(252, 5, 5);
+    animation: shake 0.25s;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid;
+}
+.dot{
+    position: absolute;
+    right: 5%;
+    display:none;
+    font-size: 30px;
+}
+#menu h2{
+    font-size: 50px;
+    margin-top: 80px; 
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+@media (max-width:1260px){
+    .pizza{
+        width: 350px;
+    }
+    .pizza-img{
+        margin-left: 3px;
+    }
+    #indian{
+        margin-left:10px;
+    }
+    .burger{
+        width: 350px;
+    }
+    .img-bur{
+        height: 300px;
+    }
+    .sandw-round{
+        width: 350px;
+    }
+    .sandw{
+        height: 300px;
+    }
+    .sandw-img h3{
+        padding-top: 20px;
+    }
+}
+@media (max-width:1070px){
+    .pizza{
+        width: 300px;
+        height: 280px;
+    }
+    .head-style{
+        font-size:20px;
+    }
+    .pizza-img{
+       margin-left: 40px;
+        width: 230px;
+    }
+    #indian{
+        width: 210px;
+        margin-left:40px;
+    }
+    .burger{
+        width: 300px;
+    }
+    .img-bur{
+        height: 250px;
+    }
+    .sandw-round{
+        width: 300px;
+    }
+    .sandw{
+        height: 250px;
+    }
+    .food-head{
+        font-size: 15px;
+    }
+    .you-can{
+        margin-top: 80px;
+    }
+} 
+@media (max-width:920px){
+    .pizza{
+        width: 250px;
+        height: 240px;
+    }
+    .burger{
+        width: 250px;
+    }
+    .img-bur{
+        height: 200px;
+    }
+    .sandw-round{
+        width: 250px;
+    }
+    .sandw{
+        height: 200px;
+    }
+    .food-head{
+        font-size: 10px;
+    }
+    .pizza-img{
+        margin-left: 15px;
+        width: 200px;
+    }
+}
+@media (max-width:825px){
+    .home-div h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .icon-div{
+        width: 600px;
+    }
+    .order-name{
+        font-size: 25px;
+    }
+    .view-more{
+        width: 400px;
+    }
+}
+@media (max-width:760px){
+    .pizza-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .order-name{
+        text-align: center;
+    }
+    #burger-main{
+        flex-direction: column;
+        align-items: center;
+    }
+    #sandw-main{
+        flex-direction: column;
+        align-items: center;
+        margin-top: -20px;
+    }
+    .view-more{
+        margin-top: 80px;
+    }
+    .about-div{
+        text-align: center;
+    }
+    .sandw{
+        margin-top: 50px;
+    }
+    .burger{
+        margin-bottom: 50px;
+    }
+    .pizza{
+        margin-top: 150px;
+    }
+    .pizza-img{
+        margin-left: 20px;
+    }
+}
+@media (max-width:610px){
+    .dot{
+        display: inline-flex;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    #close-icon{
+        font-size:25px;
+        
+    }
+    #check:checked~.dot #menu-icon{
+        display: none;
+    }
+    .dot #close-icon{
+        display: none;
+    }
+    #check:checked~.dot #close-icon{
+        display: block;
+    }
+    nav{
+        padding: 10px;
+    }
+    .ul{
+        position: absolute;
+        top: 85%;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: cornflowerblue;
+        flex-direction: column;
+        font-size: 1.1rem;
+        align-items: center;
+        overflow: hidden;
+        transform: translateY(-50px);
+        opacity: 0;
+        transition: .3s ease;
+    }
+    #check:checked~.ul{
+        height: 17.7rem;
+    }
+    .ul a{
+        margin-top: 30px;
+        color: white;
+        font-weight: bold;
+       
+        transition: .3s ease;
+        
+    }
+    #check:checked~.ul{
+        height: 17.7rem;
+        transform: translateY(0);
+        opacity: 1;
+        transition-delay: calc(.15s * var(--i));
+
+    }
+    footer{
+        flex-direction: column;
+    }
+    .points-feature{
+        margin-top: 20px;
+    }
+    .points-ABOUT{
+        margin-top: 20px;
+    }
+    .home-div h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    .icon-div{
+        width: 330px;
+    }
+    .first-icon{
+        padding: 10px;
+    }
+    .icon{
+        margin-bottom: 20px;
+    }
+    .view-more{
+        width: 300px;
+    }
+}
+@media (max-width:400px){
+    .home-main{
+        height: 500px;
+    }
+    .head{
+        margin-top: -100px;
+    }
+}
